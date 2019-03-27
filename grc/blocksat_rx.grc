@@ -1741,7 +1741,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>0.001</value>
+      <value>0.01</value>
     </param>
   </block>
   <block>
@@ -1827,7 +1827,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>2048</value>
+      <value>8192</value>
     </param>
   </block>
   <block>
