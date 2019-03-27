@@ -71,6 +71,9 @@ build/%.py: grc/%.grc
 	'dest=\"fs_debug\", type=\"intx\", default=0/'\
 	'dest=\"fs_debug\", action=\"store_true\", default=False/g' $@
 	@sed -i 's/'\
+	'dest=\"cfo_debug\", type=\"intx\", default=0/'\
+	'dest=\"cfo_debug\", action=\"store_true\", default=False/g' $@
+	@sed -i 's/'\
 	'dest=\"fs_no_phase_corr\", type=\"intx\", default=0/'\
 	'dest=\"fs_no_phase_corr\", action=\"store_true\", default=False/g' $@
 	@sed -i 's/'\

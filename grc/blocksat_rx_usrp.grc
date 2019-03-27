@@ -1049,7 +1049,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1600, 636)</value>
+      <value>(1776, 772)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1076,7 +1076,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1496, 636)</value>
+      <value>(1672, 772)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1103,7 +1103,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1496, 572)</value>
+      <value>(1672, 708)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1518,6 +1518,10 @@
       <value></value>
     </param>
     <param>
+      <key>debug</key>
+      <value>bool(cfo_debug)</value>
+    </param>
+    <param>
       <key>_enabled</key>
       <value>True</value>
     </param>
@@ -1527,7 +1531,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(224, 620)</value>
+      <value>(232, 612)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1550,8 +1554,8 @@
       <value>int(const_order)</value>
     </param>
     <param>
-      <key>samp_rate</key>
-      <value>samp_rate</value>
+      <key>sleep_per</key>
+      <value>cfo_sleep</value>
     </param>
   </block>
   <block>
@@ -1880,6 +1884,49 @@
     </param>
     <param>
       <key>_coordinate</key>
+      <value>(1336, 532)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>cfo_debug</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value>True to enable debug prints from the CFO recovery block.</value>
+    </param>
+    <param>
+      <key>short_id</key>
+      <value></value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>intx</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>parameter</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
       <value>(1336, 132)</value>
     </param>
     <param>
@@ -1948,6 +1995,49 @@
     <param>
       <key>value</key>
       <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>parameter</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1328, 436)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>cfo_sleep</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value>the  CFO recovery sleep interval in FFT blocks.</value>
+    </param>
+    <param>
+      <key>short_id</key>
+      <value></value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>intx</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>64</value>
     </param>
   </block>
   <block>
@@ -2205,7 +2295,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(512, 604)</value>
+      <value>(512, 580)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2354,7 +2444,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1336, 436)</value>
+      <value>(1496, 532)</value>
     </param>
     <param>
       <key>_rotation</key>
