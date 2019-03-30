@@ -1677,6 +1677,10 @@
       <value>cfo_fft_len</value>
     </param>
     <param>
+      <key>frame_len</key>
+      <value>frame_size</value>
+    </param>
+    <param>
       <key>_coordinate</key>
       <value>(352, 1012)</value>
     </param>
@@ -1699,6 +1703,10 @@
     <param>
       <key>M</key>
       <value>int(const_order)</value>
+    </param>
+    <param>
+      <key>sps</key>
+      <value>sps</value>
     </param>
     <param>
       <key>sleep_per</key>
@@ -7704,7 +7712,7 @@
     </param>
     <param>
       <key>size</key>
-      <value>(preamble_size + payload_size)*4</value>
+      <value>data_size</value>
     </param>
     <param>
       <key>srate</key>
@@ -11069,6 +11077,12 @@
     <sink_block_id>qtgui_time_sink_x_2</sink_block_id>
     <source_key>1</source_key>
     <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocksat_frame_synchronizer_cc_0</source_block_id>
+    <sink_block_id>blocksat_ffw_coarse_freq_req_cc_0</sink_block_id>
+    <source_key>start_index</source_key>
+    <sink_key>start_index</sink_key>
   </connection>
   <connection>
     <source_block_id>blocksat_mer_measurement_pre_decoder</source_block_id>

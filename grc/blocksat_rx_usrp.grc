@@ -1530,8 +1530,12 @@
       <value>cfo_fft_len</value>
     </param>
     <param>
+      <key>frame_len</key>
+      <value>frame_size</value>
+    </param>
+    <param>
       <key>_coordinate</key>
-      <value>(232, 612)</value>
+      <value>(232, 596)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1552,6 +1556,10 @@
     <param>
       <key>M</key>
       <value>int(const_order)</value>
+    </param>
+    <param>
+      <key>sps</key>
+      <value>sps</value>
     </param>
     <param>
       <key>sleep_per</key>
@@ -1586,7 +1594,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(288, 964)</value>
+      <value>(288, 956)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -4770,7 +4778,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(32, 644)</value>
+      <value>(32, 628)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -4797,7 +4805,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(32, 1012)</value>
+      <value>(32, 1004)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -4868,6 +4876,12 @@
     <sink_block_id>blocksat_da_carrier_phase_rec_0_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocksat_frame_synchronizer_cc_0</source_block_id>
+    <sink_block_id>blocksat_ffw_coarse_freq_req_cc_0</sink_block_id>
+    <source_key>start_index</source_key>
+    <sink_key>start_index</sink_key>
   </connection>
   <connection>
     <source_block_id>blocksat_mer_measurement_pre_frame_sync</source_block_id>
